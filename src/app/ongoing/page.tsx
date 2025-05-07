@@ -11,7 +11,7 @@ const montserrat = Montserrat({ subsets: ["latin"], weight: ["800"] });
 export default function OngoingProjectsPage() {
   const projects = [
     {
-      title: "Digital assest escrow",
+      title: "Digital assets escrow",
       subtitle: "Rust • Solidity",
       chain: "EVM & Solana",
       items: [
