@@ -18,7 +18,7 @@ export default function Home() {
         <div className="container mx-auto px-4 z-10">
           <div className="max-w-6xl mx-auto flex flex-col items-center">
             <div className="text-center mb-2">
-              <span className={`text-2xl ${inter.className} text-gray-400 animate-slide-up`}>Hello! I'm Ghaleb</span>
+              <span className={`text-2xl ${inter.className} text-gray-400 animate-slide-up`}>Hello! I&apos;m Ghaleb</span>
             </div>
             
             {/* About Me Box */}
