@@ -214,7 +214,7 @@ export default function ContactPage() {
               <h3 className="text-2xl font-semibold text-gray-900 mb-4 text-center">
                 Book a Meeting
               </h3>
-              <InlineWidget url="https://calendly.com/your-username/30min" />
+              <InlineWidget url="https://calendly.com/ghaleb-gdchain/30min" />
             </div>
           </section>
         </div>
