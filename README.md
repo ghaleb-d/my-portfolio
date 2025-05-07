@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ghaleb’s Personal Portfolio Website
 
-## Getting Started
+This repository hosts my personal portfolio website built with **Next.js** (App Router), **Tailwind CSS**, and **React Icons**, deployed via **Netlify**. It showcases my background, skills, experience, and ongoing projects, and provides a contact form with direct email delivery and a Calendly scheduler.
 
-First, run the development server:
+---
+
+## 🔍 Features
+
+* **Responsive Design**: Fully mobile‑friendly using Tailwind CSS.
+* **Dynamic Pages**:
+
+  * **About**: Overview and bio.
+  * **Skills**: Technical, Cybersecurity, Web Tech & Frameworks, DevOps & Tools, Databases, Spoken Languages.
+  * **Experience**: Timeline of roles with rich bullet points and links.
+  * **Ongoing Projects**: Live projects with details.
+  * **Contact**: Client‑validated form sending emails via a serverless API, plus an embedded Calendly widget.
+* **Email Delivery**: Uses a Next.js API route and Nodemailer, authenticated via Google SMTP App Password for secure mail sending.
+* **Calendly Inline**: Book meetings directly from the page.
+
+---
+
+## 🛠 Tech Stack
+
+* **Framework**: Next.js 15 (App Router)
+* **Styling**: Tailwind CSS
+* **Fonts**: Montserrat via `next/font`
+* **Icons**: React Icons (Font Awesome)
+* **Email**: Nodemailer with Google SMTP, Netlify Functions
+* **Scheduler**: `react-calendly` InlineWidget
+* **Deployment**: Netlify with custom GoDaddy domain
+
+----------
+🧪 Testing
+
+Unit Tests: Validation utilities (validateName, validateEmail, validateSubject, validateMessage) are covered by Jest tests in __tests__/validation.test.ts.
+
+Run Tests: Execute npm test to run all unit tests and ensure validation logic is correct.
+
+----------
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Node.js v16+ and npm (or yarn/pnpm)
+
+### Installation
+
+```bash
+git clone https://github.com/ghaleb-d/portfolio-website.git
+cd portfolio-website
+npm install
+```
+
+### Environment Variables
+
+Create a file `.env.local` (this is ignored by Git) at the project root:
+
+```dotenv
+# Google SMTP settings using an App Password\SMTP_HOST=smtp.gmail.com
+
+SMTP_USER=your.email@yourdomain.com
+SMTP_PASS=YOUR_16_CHAR_APP_PASSWORD
+CONTACT_EMAIL=your.email@yourdomain.com
+```
+
+Replace the placeholders with your own values.
+
+### Run Locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open (http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🙌 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+All rights reserved. Unauthorized copying, distribution, or modification of this project is prohibited. Feel free to contact me through the website
