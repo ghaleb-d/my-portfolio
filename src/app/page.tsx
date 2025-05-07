@@ -1,7 +1,6 @@
 'use client';
 
 import { Montserrat, Inter } from 'next/font/google';
-import { useEffect, useRef } from 'react';
 import Navigation from './components/Navbar';
 import Footer from './components/Footer';
 const montserrat = Montserrat({ subsets: ['latin'] });

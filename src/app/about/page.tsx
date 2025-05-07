@@ -6,7 +6,6 @@ import Footer from "../components/Footer";
 import {
   FaGraduationCap,
   FaMapMarkerAlt,
-  FaReact,
   FaBook,
   FaCode,
   FaGlobeAmericas,
@@ -96,8 +95,8 @@ export default function AboutPage() {
               <ul className="space-y-8 relative z-10">
                 {timeline.map(
                   (
-                    { year, school, title, subtitle, location, Icon, details },
-                    idx
+                    { year, school, title, subtitle, location, Icon, details }
+                  
                   ) => (
                     <li key={year} className="flex items-start md:space-x-4">
                       {/* Icon and Year */}
