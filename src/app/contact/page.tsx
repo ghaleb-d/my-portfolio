@@ -23,7 +23,7 @@ export default function ContactPage() {
   });
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
 
-  // validators
+  // validators for name, email, subject, and message
   const validateName = (n: string) => /^[A-Za-z\s]+$/.test(n);
   const validateEmail = (e: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e);
 
@@ -34,7 +34,7 @@ export default function ContactPage() {
     setForm((f) => ({ ...f, [name]: value }));
     setErrors((err) => ({ ...err, [name]: "" }));
   };
-
+  // handle submit for the form
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     let valid = true;

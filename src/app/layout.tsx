@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Ghaleb</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" sizes="100x100" />
       </head>
       <body className={`${montserrat.className} antialiased`}>
         {children}

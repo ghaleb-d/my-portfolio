@@ -37,7 +37,7 @@ const timeline = [
   },
   {
     year: "2020",
-    school: "Ecole de technologie supérieure - Mcgill University",
+    school: "Ecole de Technologie Supérieure - McGill University",
     title: "Master of Science: Construction Engineering",
     subtitle: "Risk Engineering and system vulnerability assessment",
     details: [
