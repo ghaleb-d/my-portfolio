@@ -1,6 +1,6 @@
 # Ghaleb’s Personal Portfolio Website
 
-This repository hosts my personal portfolio website built with **Next.js** (App Router), **Tailwind CSS**, and **React Icons**, deployed via **Netlify**. It showcases my background, skills, experience, and ongoing projects, and provides a contact form with direct email delivery and a Calendly scheduler.
+This repository hosts my personal portfolio website built with **Next.js** (App Router), **Tailwind CSS**, and **React Icons**. It showcases my background, skills, experience, and ongoing projects, and provides a contact form with direct email delivery and a Calendly scheduler.
 
 ---
 
