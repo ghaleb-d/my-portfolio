@@ -71,7 +71,7 @@ export default function AboutPage() {
           {/* Hero Section */}
           <section className="max-w-4xl mx-auto">
             <h1
-              className={`text-xl md:text-2xl font-medium text-center mb-16 tracking-wide bg-gradient-to-r from-black via-black/90 to-black/80 bg-clip-text  ${montserrat.className} leading-relaxed py-3`}
+              className={`text-xl md:text-2xl font-medium text-center mb-16 tracking-wide bg-gradient-to-r from-black via-black/90 to-black/80 bg-clip-text  ${montserrat.className} leading-relaxed py-10`}
             >
               This page shows my educational background, technical skills and
               spoken languages.
@@ -79,7 +79,7 @@ export default function AboutPage() {
           </section>
           <section className="max-w-4xl mx-auto">
             <h1
-              className={`flex items-center justify-center gap-3 text-4xl md:text-5xl font-bold text-center mb-16 tracking-wide bg-gradient-to-r from-black via-black/90 to-black/80 bg-clip-text ${montserrat.className} leading-relaxed py-2`}
+              className={`flex items-center justify-center gap-3 text-xl md:text-5xl font-bold text-center mb-16 tracking-wide bg-gradient-to-r from-black via-black/90 to-black/80 bg-clip-text ${montserrat.className} leading-relaxed py-2`}
             >
               <FaBook className="w-8 h-8 text-gray-400" />
               Educational Background
