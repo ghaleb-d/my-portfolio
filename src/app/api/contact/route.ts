@@ -6,12 +6,10 @@ export async function POST(request: Request) {
 
   // configure transporter via env vars for gmail
   const transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST,
-    port: Number(process.env.SMTP_PORT),
-    secure: Number(process.env.SMTP_PORT) === 587,
+    service: "gmail",
     auth: {
-      user: process.env.SMTP_USER,
-      pass: process.env.SMTP_PASS,
+      user: process.env.SMTP_USER, // your.email@yourdomain.com
+      pass: process.env.SMTP_PASS, // your 16-char App Password
     },
   });
 
