@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 export async function POST(request: Request) {
   const { name, email, subject, message } = await request.json();
 
-  // configure transporter via env vars
+  // configure transporter via env vars for gmail
   const transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
     port: Number(process.env.SMTP_PORT),
