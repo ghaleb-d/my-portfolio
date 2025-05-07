@@ -7,7 +7,12 @@ import { InlineWidget } from "react-calendly";
 import Navigation from "../components/Navbar";
 import Footer from "../components/Footer";
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["800"] });
-
+import {
+    validateName,
+    validateEmail,
+    validateSubject,
+    validateMessage,
+  } from "../../utils/validation";
 export default function ContactPage() {
   const [form, setForm] = useState({
     name: "",
@@ -23,9 +28,7 @@ export default function ContactPage() {
   });
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
 
-  // validators for name, email, subject, and message
-  const validateName = (n: string) => /^[A-Za-z\s]+$/.test(n);
-  const validateEmail = (e: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e);
+ 
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -48,14 +51,14 @@ export default function ContactPage() {
       newErrors.email = "Please enter a valid email.";
       valid = false;
     }
-    if (!form.subject.trim()) {
-      newErrors.subject = "Subject cannot be empty.";
-      valid = false;
-    }
-    if (!form.message.trim()) {
-      newErrors.message = "Message cannot be empty.";
-      valid = false;
-    }
+    if (!validateSubject(form.subject)) {
+        newErrors.subject = "Subject cannot be empty.";
+        valid = false;
+      }
+      if (!validateMessage(form.message)) {
+        newErrors.message = "Message cannot be empty.";
+        valid = false;
+      }
 
     setErrors(newErrors);
     if (!valid) return;
