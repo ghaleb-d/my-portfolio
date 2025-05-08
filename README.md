@@ -16,7 +16,7 @@ This repository hosts my personal portfolio website built with **Next.js** (App 
   * **Contact**: Client‑validated form sending emails via a serverless API, plus an embedded Calendly widget.
 * **Email Delivery**: Uses a Next.js API route and Nodemailer, authenticated via Google SMTP App Password for secure mail sending.
 * **Calendly Inline**: Book meetings directly from the page.
-
+* **Crypto prices**: Live Crypto Prices: Integrated a real-time cryptocurrency ticker (BTC, ETH, SOL) using CoinGecko’s public API and Server-Sent Events (SSE), rendered with React Icons and a custom stylized card.
 ---
 
 ## 🛠 Tech Stack
@@ -28,7 +28,7 @@ This repository hosts my personal portfolio website built with **Next.js** (App 
 * **Email**: Nodemailer with Google SMTP, Netlify Functions
 * **Scheduler**: `react-calendly` InlineWidget
 * **Deployment**: Netlify with custom GoDaddy domain
-
+* **Real-timeData**: CoinGecko public API, Server-Sent Events (SSE), Node.js API routes, SWR/React for client updates.
 ----------
 🧪 Testing
 
