@@ -45,7 +45,7 @@ export default function ExperiencePage() {
                     </span>
                   </div>
                   <span className="text-sm text-gray-600 mt-2 sm:mt-0">
-                    Nov 2023 – Present
+                    Nov 2023 – Apr 2025
                   </span>
                 </div>
 

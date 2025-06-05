@@ -38,7 +38,7 @@ export default function Navbar() {
             Work Experience
           </Link>
           <Link href="/ongoing" className={`${montserrat.className} nav-hover`}>
-          On-going Projects
+         My Projects
 
           </Link>
           <Link href="/contact" className={`${montserrat.className} nav-hover`}>
@@ -87,7 +87,7 @@ export default function Navbar() {
               Work Experience
             </Link>
             <Link href="/ongoing" className="mobile-link">
-              On-going Projects
+              My Projects
             </Link>
             <Link href="/contact" className="mobile-link">
               Contact
