@@ -177,10 +177,10 @@ export default function AboutPage() {
                     {[
                       "Solidity",
                       "Rust",
-                      "Python",
                       "JavaScript",
                       "TypeScript",
-                      "Shell",
+                      "VBA"
+
                     ].map((lang, idx) => (
                       <span
                         key={idx}
@@ -342,7 +342,6 @@ export default function AboutPage() {
                   <div className="flex flex-wrap gap-2">
                     {[
                       "PostgreSQL",
-                      "MySQL",
                       "MongoDB",
                       "Firebase Realtime / Firestore",
                     ].map((lang, idx) => (
