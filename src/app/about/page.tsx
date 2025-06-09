@@ -16,7 +16,7 @@ const timeline = [
   {
     year: "2023",
     school: "Ecole Polytechnique de Montréal",
-    title: "PhD researcher: Mathematics and Industrial Engineering",
+    title: "PhD researcher: Mathematical and Industrial Engineering",
     details: [
       "Blockchain interoperability with BIM/ERP systems and cross-chain messaging, for better industrial data exchange and project lifecycle management",
       "Benchmarking performance of non-authoritative vs a newly proposed PBFT-based hybrid consensus for industrial interoperability and data exchange",
@@ -38,7 +38,7 @@ const timeline = [
   {
     year: "2020",
     school: "Ecole de Technologie Supérieure - McGill University",
-    title: "Master of Science: Construction Engineering",
+    title: "Master of Science: Risk Engineering",
     subtitle: "Risk Engineering and system vulnerability assessment",
     details: [
       "Risk assessments using the Analytical Hierarchy Process (AHP) to quantify and prioritize risk factors, leading to precise risk indexing and probability-of-failure estimations.",
