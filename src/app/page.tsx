@@ -32,7 +32,7 @@ export default function Home() {
               <p
                 className={`${inter.className} fade-up text-lg text-gray-800 dark:text-gray-200`}
               >
-                An engineer & PhD researcher focusing on blockchain consensus
+               PhD researcher focusing on blockchain consensus
                 and interoperability for specific industries.
               </p>
               <p

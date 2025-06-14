@@ -28,15 +28,10 @@ export default function Navbar() {
           <Link href="/" className={`${montserrat.className} nav-hover`}>
             Home
           </Link>
-          <Link href="/about" className={`${montserrat.className} nav-hover`}>
-            Education & Skills
+          <Link href="/services" className={`${montserrat.className} nav-hover`}>
+         Services
           </Link>
-          <Link
-            href="/experiences"
-            className={`${montserrat.className} nav-hover`}
-          >
-            Work Experience
-          </Link>
+     
           <Link href="/ongoing" className={`${montserrat.className} nav-hover`}>
          My Projects
 
@@ -80,12 +75,10 @@ export default function Navbar() {
             <Link href="/" className="mobile-link">
               Home
             </Link>
-            <Link href="/about" className="mobile-link">
-              Education & Skills
+            <Link href="/services" className="mobile-link">
+             Services
             </Link>
-            <Link href="/experiences" className="mobile-link">
-              Work Experience
-            </Link>
+          
             <Link href="/ongoing" className="mobile-link">
               My Projects
             </Link>
