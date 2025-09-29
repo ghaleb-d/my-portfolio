@@ -86,11 +86,11 @@ export default function ProjectsPage() {
     },
     {
       title: "Ultra-Low-Latency Solana Trading System",
-      subtitle: "Rust • Solana TPU/QUIC • Tokio • Geyser",
+      subtitle: "Rust • Solana• Tokio • Geyser",
       chain: "On-chain (Solana)",
       status: "ongoing",
       items: [
-        "Engineered a TPU/QUIC-first execution path with leader-schedule awareness and pre-signed, pre-quoted transactions to minimize slot miss risk.",
+        "Engineered an execution path with leader-schedule awareness and pre-signed, pre-quoted transactions to minimize slot miss risk.",
         "Implemented risk management algorithms (VaR/ES, Kelly-fraction caps, rolling drawdown guards) with position sizing and circuit-breaker halts.",
         "Built streaming market data via Geyser/WebSocket with lock-free channels and back-pressure control for deterministic throughput.",
         "Added health checks, jitter/latency telemetry, and failover across dedicated RPCs with configurable slippage & priority-fee policies."
